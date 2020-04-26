@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import csv
 import numpy as np
 
-ruta = "Datos\DatasaurusDozen.tsv"
+ruta = "Datos/DatasaurusDozen.tsv"
 
 with open(ruta, 'r') as File:
     reader = csv.reader(File, dialect=csv.excel_tab)
